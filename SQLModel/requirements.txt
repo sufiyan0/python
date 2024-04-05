@@ -1,0 +1,3 @@
+sqlmodel
+pydentic
+psycopg2
