@@ -9,7 +9,7 @@ class Hero(SQLModel, table=True):
     last_name: str
     age: int | None = None
     
-connection_string = "postgresql://neondb_owner:3IMLJdWzk5sC@ep-empty-hill-a52qb0bi-pooler.us-east-2.aws.neon.tech/todo?sslmode=require"
+connection_string = "postgresql://neondb_owner:ILJdzk5s@ep-empty-hill-a52qb0bi-pooler.us-east-2.aws.neon.tech/todo?sslmode=require"
 engine = create_engine(connection_string, echo= True) 
 
 
